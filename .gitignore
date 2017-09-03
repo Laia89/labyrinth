@@ -1,0 +1,7 @@
+# Ignore IDEA files
+*.iml
+.idea/
+out/
+
+# maven output
+target
