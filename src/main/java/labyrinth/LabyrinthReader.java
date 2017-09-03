@@ -61,7 +61,6 @@ public class LabyrinthReader {
 			int indexSpaceAllColumns = rowLabyrinth.indexOf(TILE_SPACE);
 			int indexSpaceLastColumn = rowLabyrinth.indexOf(TILE_SPACE, rowLabyrinth.length()-1);
 			Boolean isUpOrDownWall = i == 0 || i == map.size()-1;
-			int ahah = rowLabyrinth.length();
 			if (isUpOrDownWall && indexSpaceAllColumns >=0) {
 				return true;
 			} else if (!isUpOrDownWall && (indexSpaceAllColumns == 0 || indexSpaceLastColumn == rowLabyrinth.length()-1)) {
